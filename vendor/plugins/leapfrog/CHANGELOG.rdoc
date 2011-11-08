@@ -1,0 +1,26 @@
+== 0.3.0 released 2011-11-07
+
+* Add userstamp type :string.
+
+== 0.2.3 released 2011-09-20
+
+* Fix for development env.
+  "config.cache_classes = false" in config/enviroments/development.rb
+
+  Migration method changed. ex. t.users -> t.userstamps
+
+== 0.2.2 released 2011-09-04
+
+* Rails3 support
+
+== 0.2.1 released 2011-07-13
+
+* Fix for alter table migration
+
+== 0.2.0 released 2011-07-12
+
+* Using Thread for accounts
+
+== 0.1.0 released 2011-07-06
+
+* Initial release
