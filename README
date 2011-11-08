@@ -4,4 +4,15 @@
 
 git clone git://github.com/kobayashi-tbn/leapfrog-example.git
 
+cd leapfrog-example
 
+bundle install
+
+rake db:create
+rake db:migrate
+rake db:seed
+
+rails s
+
+User : user01
+Pass : pass01
